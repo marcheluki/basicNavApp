@@ -1,10 +1,10 @@
 import React from 'react';
-import { StyleSheet, View, Text} from 'react-native';
+import { StyleSheet, View, Text } from 'react-native';
 
 const Index = () => {
     return (
         <View style={styles.container}>
-            <Text>Index</Text>
+            <Text>Friends</Text>
         </View>
     );
 }
