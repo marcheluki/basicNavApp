@@ -1,20 +1,20 @@
 import React from 'react';
-import { StyleSheet, View, Text } from 'react-native';
+import { StyleSheet, View } from 'react-native';
+import { ListingsFriends } from '@/components/listings';
 
-const Index = () => {
-    return (
-        <View style={styles.container}>
-            <Text>Friends</Text>
-        </View>
-    );
+const FriendsScreen = () => {
+  return (
+    <View style={styles.container}>
+      <ListingsFriends />
+    </View>
+  );
 }
 
 const styles = StyleSheet.create({
-    container: {
-        flex: 1,
-        alignItems: 'center',
-        justifyContent: 'center',
-    },
-})
+  container: {
+    flex: 1,
+    paddingHorizontal: 20,
+  },
+});
 
-export default Index;
+export default FriendsScreen;
