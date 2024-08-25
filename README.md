@@ -131,6 +131,4 @@ Feel free to fork this project and submit pull requests. Contributions are welco
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
 
----
 
-This README should now be more engaging with the added emojis! Let me know if there's anything else you need. 😊
