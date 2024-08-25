@@ -6,7 +6,8 @@ import AntDesign from '@expo/vector-icons/AntDesign';
 import Colors from "@/constants/colors";
 import GoToButtons from '@/components/GoToButtons';
 import {useState} from 'react';
-import { ListingsFriends, ListingsHobbies } from '@/components/listings';
+import { ListingsFriends} from './(friends)/listingsFriends';
+import { ListingsHobbies } from './(hobbies)/listingsHobbies';
 
 const Page = () => {
     const headerHeight = useHeaderHeight();

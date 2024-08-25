@@ -50,6 +50,20 @@ export default function Layout() {
           ),
         }}
       />
+      
+      {/* Hide dynamic routes from the tab bar */}
+      <Tabs.Screen
+        name="(friends)/[name]"
+        options={{
+          tabBarButton: () => null, // Hide from tab bar
+        }}
+      />
+      <Tabs.Screen
+        name="(hobbies)/[name]"
+        options={{
+          tabBarButton: () => null, // Hide from tab bar
+        }}
+      />
     </Tabs>
   );
 }
